@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #393e46;
+	font-family: Times New Roman;
+	font-size: 14px;
+}
+
+#header{
+	background: #1e2022;
+	text-align: left;
+	color: white;
+	font-size: 200%;
+	font-weight: bold;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#menu ul{
+	background: #52616b;
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	list-style-type: none;
+	font-size: 100%;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: 0.5s;
+}
+
+#menu ul li a:hover{
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	font-size: 120%;
+	transition: 0.5s;
+}
+
+#text{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #c9d6df;
+}
+
+#password{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #c9d6df;
+}
+
+#button{
+	background-color: #393e46;
+	margin-top: 10px;
+	color: black;
+	border: ;
+}
+
+#button a{
+	color: white;
+	background-color: #393e46;
+}
+
+#button1{
+	background-color: #393e46;
+	margin-top: 10px;
+	color: white;
+	border: none;
+}
+
+#footer{
+	background: #1e2022;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#footer a{
+	color: white;
+	text-decoration: none;
+}
